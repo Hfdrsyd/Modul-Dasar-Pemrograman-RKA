@@ -79,7 +79,7 @@ Mari kita mulai dengan membuat program sederhana, yakni program untuk menampilka
 print("Hello, world!\n")
 ```
 
-Salinlah kode di atas pada IDE, kemudian jalankan. Proses compilation akan menghasilkan output sebagai berikut.
+Salinlah kode di atas pada IDE, kemudian run kode dengan `python <nama_file_python.py>`. Proses running akan menghasilkan output sebagai berikut.
 
 ```
 Hello, world!
@@ -146,16 +146,17 @@ Atau kita dapat membuat dengan komentar *Single-Line* yang berulang.
 
 **Keyword** merupakan kata khusus yang telah dipesan (reserved) pada bahasa pemograman. Kata-kata ini digunakan untuk menentukan sintaks dan struktur program, dan tidak dapat digunakan sebagai nama identifier. Berikut adalah daftar keyword dalam Python:
 
-|---------|--------|--------|--------|
-| `False` | `await` | `else` | `import` |
-| `None`  | `break` | `except` | `in` |
-| `True`  | `class` | `finally` | `is` |
-| `and`   | `continue` | `for` | `lambda` |
-| `assert` | `def` | `from` | `nonlocal` |
-| `async` | `del` | `global` | `not` |
-| `if`    | `raise` | `return` | `while` |
-| `elif`  | `try` | `with` | `yield` |
-| `or`    | `pass` | `print` | `exec` |
+| Keyword   | Keyword   | Keyword   | Keyword   |
+|-----------|-----------|-----------|-----------|
+| `False`   | `await`   | `else`    | `import`  |
+| `None`    | `break`   | `except`  | `in`      |
+| `True`    | `class`   | `finally` | `is`      |
+| `and`     | `continue`| `for`     | `lambda`  |
+| `assert`  | `def`     | `from`    | `nonlocal`|
+| `async`   | `del`     | `global`  | `not`     |
+| `if`      | `raise`   | `return`  | `while`   |
+| `elif`    | `try`     | `with`    | `yield`   |
+| `or`      | `pass`    | `print`   | `exec`    |
 
 ## Identifier
 
