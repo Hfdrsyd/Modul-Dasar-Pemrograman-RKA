@@ -146,7 +146,6 @@ Atau kita dapat membuat dengan komentar *Single-Line* yang berulang.
 
 **Keyword** merupakan kata khusus yang telah dipesan (reserved) pada bahasa pemograman. Kata-kata ini digunakan untuk menentukan sintaks dan struktur program, dan tidak dapat digunakan sebagai nama identifier. Berikut adalah daftar keyword dalam Python:
 
-|         |        |        |        |
 |---------|--------|--------|--------|
 | `False` | `await` | `else` | `import` |
 | `None`  | `break` | `except` | `in` |
