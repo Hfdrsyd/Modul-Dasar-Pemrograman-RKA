@@ -221,7 +221,7 @@ Jalankan kode diatas untuk mengetahui tipe data dari variabel, akan diperoleh ou
 
 ## Konstanta dalam Python
 
-Di Python, **Konstanta** adalah variabel yang nilainya tidak dapat diubah selama program berjalan. Meskipun Python tidak memiliki konstanta bawaan seperti beberapa bahasa pemrograman lain, kita dapat mendefinisikan konstanta dengan menggunakan **konvensi/kesepakatan penamaan huruf kapital**.
+**Konstanta** adalah variabel yang nilainya tidak dapat diubah selama program berjalan. Meskipun Python tidak memiliki konstanta bawaan seperti beberapa bahasa pemrograman lain, kita dapat mendefinisikan konstanta dengan menggunakan **konvensi/kesepakatan penamaan huruf kapital**.
 
 ### Aturan dalam Mendeklarasikan Konstanta:
 - Gunakan huruf besar (UPPERCASE) untuk mendefinisikan konstanta. Misalnya: `PI = 3.14`.
