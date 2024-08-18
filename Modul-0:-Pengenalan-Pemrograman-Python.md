@@ -428,7 +428,7 @@ Output
 Ini adalah sebuah string
 ```
 Secara default, fungsi print akan menulis isinya ke baris baru/new-line(\n).
-```
+```python
 print("ini baris 1")
 print("ini baris 2")
 ```
@@ -439,7 +439,7 @@ Output:
 ini baris 1
 ini baris 2
 ```
-Apabila kita tidak menginginkan output pada baris baru, kita dapat merubah karakter terakhir dari print dengan menggunakan parameter `end=`
+Apabila kita tidak menginginkan output pada baris baru, kita dapat merubah karakter terakhir dari print dengan menggunakan parameter `end=`.
 ```python
 print("ini baris 1",end=' ') # karakter akhir dari print diubah menjadi ' '
 print("ini baris 2")
@@ -448,7 +448,7 @@ Output:
 ```
 ini baris 1 ini baris 2
 ```
-Kita juga dapat menambahkan escape sequence pada string. Misalkan, kita ubah statement `printf()` di atas menjadi:
+Kita juga dapat menambahkan escape sequence pada string. Misalkan, kita ubah statement `print()` di atas menjadi:
 
 ```python
 print("Ini adalah sebuah string\nAku adalah new-line\n\tAku adalah karakter \\tab")
@@ -487,7 +487,7 @@ nilai a adalah 2, nilai b adalah X
 nilai a adalah 2, nilai b adalah X
 nilai a adalah 2 nilai b adalah X
 ```
-Semua metode `print()` menghasilkan output yang sama, kecuali metode multiple argument. Hal ini disebabkan karena ketika variabel dimasukkan sebagai argumen dalam `print()`, Python secara otomatis menambahkan spasi di antara argumen-argumennya. Oleh karena itu, pilihlah salah satu metode untuk mencetak yang paling sesuai dengan kebutuhan Anda.
+Semua metode `print()` menghasilkan output yang sama, kecuali metode multiple argument. Hal ini disebabkan karena ketika variabel dimasukkan sebagai argumen dalam `print()`, Python secara otomatis menambahkan spasi di antara argumen-argumennya. Oleh karena itu, pilihlah salah satu metode untuk mencetak yang paling sesuai dengan kebutuhan Kalian.
 
 ## Input Dasar
 
@@ -529,7 +529,7 @@ a b c mempunyai nilai = 21, 12, 50
 ```
 
 Dari kode tersebut kita sudah bisa memasukkan tiga input dalam satu baris, dengan dimasukkan pada 3 variabel. Bagaimana bila jumlah input dalam baris dinamis/berubah ubah? 
-Hal tersebut dapat diatasi dengan memanfaatkan **perulangan dan list** pada modul kedepan
+Hal tersebut dapat diatasi dengan memanfaatkan **perulangan dan list** pada modul kedepan.
 
 [< Kembali ke Daftar Isi](#daftar-isi)
 
