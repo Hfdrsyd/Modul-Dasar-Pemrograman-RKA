@@ -17,20 +17,18 @@
 - [Variabel](#variabel)
 
     + [Pengenalan Variabel](#pengenalan-variabel)
-    + [Deklarasi dan Definisi Variabel](#deklarasi-dan-definisi-variabel)
-    + [Pengisian Nilai Variabel](#pengisian-nilai-variabel)
-    + [Inisialisasi Variabel](#inisialisasi-variabel)
+    + [Deklarasi dan Pengisian nilai Variabel](#deklarasi-dan-pengisian-nilai-variabel)
 
 - [Konstanta dan Literal](#konstanta-dan-literal)
 
-    + [Konstanta dan Literal](#konstanta-dan-literal-1)
-    + [Mendefinisikan Konstanta](#mendefinisikan-konstanta)
+    + [Konstanta dalam Python](#konstanta-dalam-python)
+    + [Literal dalam Python](#literal-dalam-python)
 
 - [Tipe Data Dasar](#tipe-data-dasar)
 
-    + [Tipe Bilangan Bulat (integer)](#tipe-bilangan-bulat-integer)
-    + [Tipe Bilangan Real (floating)](#tipe-bilangan-real-floating)
-    + [Tipe Karakter](#tipe-karakter)
+    + [Tipe data Numerik](#tipe-data-numerik)
+    + [Tipe data String](#tipe-data-string)
+    + [Casting tipe data dasar](#casting-tipe-data-dasar)
 
 - [Input dan Output Dasar](#input-dan-output-dasar)
 
@@ -41,7 +39,6 @@
 
     + [Operator Assignment](#operator-assignment)
     + [Operator Aritmatika](#operator-aritmatika)
-    + [Operator Increment dan Decrement](#operator-increment-dan-decrement)
     + [Operator Relasional](#operator-relasional)
     + [Operator Logika](#operator-logika)
     + [Operator Bitwise](#operator-bitwise)
@@ -59,7 +56,7 @@ Python menggunakan interpreter untuk menjalankan kode, interpreter adalah progra
 
 - [Python](https://www.python.org/)
 
-Setelah melakukan install interpreter dapat dicoba (Screenshoot dibawah menggunakan windows, pada iOS atau linux mungkin ada perbedaan):
+Setelah melakukan install interpreter dapat dicoba seperti gambar dibawah. (Screenshoot dibawah menggunakan windows, pada iOS atau linux mungkin ada perbedaan):
 
 ![img](img/after_install.png)
 
@@ -298,7 +295,6 @@ Selain karakter normal, terdapat karakter khusus dalam bahasa python yang mempun
 | `\\`            | Backslash           |
 | `\'`            | Tanda petik         |
 | `\"`            | Tanda petik dua     |
-|-----------------|---------------------|
 
 
 Dapat dicoba dengan kode berikut
@@ -368,7 +364,7 @@ Tipe data (1+3j)  adalah  <class 'complex'>
 ## Tipe data **String**
 Tipe data **String** merupakan Tipe data untuk merepresentasikan teks atau karakter. String bisa berupa satu karakter atau rangkaian karakter. String dapat ditulis menggunakan tanda kutip tunggal, ganda, atau triple (untuk multi-baris). String juga dapat diperlakukan seperti `list` dari karakter yang tidak bisa diubah (list akan dibahas lebih detail pada modul kedepan).
 
-## Casting tipe data
+## Casting tipe data dasar
 Casting merupakan proses konversi dari satu tipe data ke tipe data lain. Biasanya dibutuhkan dengan tujuan kompabilitas, konsistensi, maupun fleksibilitas. Pada python casting dilakukan menggunakan fungsi built-in dari python, seperti `int()`, `float()`, `complex()`, `str()`. Berikut contoh penggunaan casting:
 
 ```python
@@ -487,7 +483,7 @@ nilai a adalah 2, nilai b adalah X
 nilai a adalah 2, nilai b adalah X
 nilai a adalah 2 nilai b adalah X
 ```
-Semua metode `print()` menghasilkan output yang sama, kecuali metode multiple argument. Hal ini disebabkan karena ketika variabel dimasukkan sebagai argumen dalam `print()`, Python secara otomatis menambahkan spasi di antara argumen-argumennya. Oleh karena itu, pilihlah salah satu metode untuk mencetak yang paling sesuai dengan kebutuhan Kalian.
+Semua metode `print()` menghasilkan output yang sama, kecuali metode multiple argument. Hal ini disebabkan karena ketika variabel dimasukkan sebagai argumen dalam `print()`, Python secara otomatis menambahkan spasi di antara argumen-argumennya. Oleh karena itu, **pilihlah salah satu metode untuk output yang paling sesuai dengan kebutuhan Kalian**.
 
 ## Input Dasar
 
@@ -707,18 +703,6 @@ Misal 12 dan 5. Representasi 12 dan 5 dalam basis biner adalah 12 = (1100) dan 5
 | ^=       | `a ^= b`  | `a = a ^ b`             |
 | >>=      | `a >>= b` | `a = a >> b`            |
 | <<=      | `a <<= b` | `a = a << b`            |
-
-## Operator Increment dan Decrement
-
-Dalam Python penambahan atau pengurangan dapat dilakukan dengan operator assignment.
-
-Contoh:
-
-```python
-a = 5
-a += 1  # menggunakan operator gabungan, a sekarang adalah 6 
-a -= 1  # menggunakan operator gabungan, a sekarang adalah 5 
-```
 
 ## Operator Lain
 
