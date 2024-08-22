@@ -60,6 +60,13 @@ Setelah melakukan install interpreter dapat dicoba seperti gambar dibawah. (Scre
 
 ![img](img/after_install.png)
 
+Atau dengan mudah, kalian dapat mencoba - coba run kode python menggunakan **Google Colaboratory** (untuk sekarang, hanya disarankan sebagai platform mencoba coba). Berikut cara menggunakan Google Colaboratory, jika kalian Pertama kali menggunakan:
+- Buka Google Drive kalian pada [https://drive.google.com/drive/home](https://drive.google.com/drive/home)
+- Kemudian Tekan **`+ Baru`**, **`Lainnya`**, **`Hubungkan Aplikasi Lainnya`**.(Tombol akan berbeda jika menggunakan bahasa lain, sesuaikan saja)
+- Kemudian telusuri `Colaboratory` dan install.
+- Setelah Google Colab Terinstall kalian dapat menggunakannya melalui **`+ Baru`**, **`Lainnya`**, **`Colaboratory`**, dan Google Colab siap digunakan.
+
+**Note :** kalian tetap disarankan menggunakan IDE + interpreter, selama mata kuliah ini. Karena Google Colab menghasilkan file .ipynb bukan .py.
 # Pengenalan Bahasa Python
 
 ## Statement
@@ -364,6 +371,11 @@ Tipe data (1+3j)  adalah  <class 'complex'>
 ## Tipe data **String**
 Tipe data **String** merupakan Tipe data untuk merepresentasikan teks atau karakter. String bisa berupa satu karakter atau rangkaian karakter. String dapat ditulis menggunakan tanda kutip tunggal, ganda, atau triple (untuk multi-baris). String juga dapat diperlakukan seperti `list` dari karakter yang tidak bisa diubah (list akan dibahas lebih detail pada modul kedepan).
 
+penggunaanya silahkan buka [Literal String](#2-literal-string)
+
+## Tipe data **Boolean**
+Tipe data Boolean merupakan tipe data yang hanya memiliki 2 nilai, **`True`** atau **`False`**. 
+
 ## Casting tipe data dasar
 Casting merupakan proses konversi dari satu tipe data ke tipe data lain. Biasanya dibutuhkan dengan tujuan kompabilitas, konsistensi, maupun fleksibilitas. Pada python casting dilakukan menggunakan fungsi built-in dari python, seperti `int()`, `float()`, `complex()`, `str()`. Berikut contoh penggunaan casting:
 
@@ -391,6 +403,18 @@ print(f,type(f))  # Output: '42'
 g = 3.14
 h = str(g)
 print(h,type(h))  # Output: '3.14'
+
+# bool() akan menganggap jika variable memiliki value/isi adalah True
+i = 42
+j = bool(i)
+print(j)  # Output: True
+k = 0
+l = bool(k)
+print(l)  # Output: False
+M = ''
+N = bool(M)
+print(N)  # Output: False
+
 ```
 Output:
 ```
@@ -401,6 +425,8 @@ Output:
 42 <class 'str'>
 3.14 <class 'str'>
 ```
+
+**Note :** Kita juga dapat melakukan casting pada tipe data collection pada modul kedepan.
 
 [< Kembali ke Daftar Isi](#daftar-isi)
 
