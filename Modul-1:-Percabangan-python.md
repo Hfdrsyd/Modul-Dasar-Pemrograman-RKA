@@ -154,48 +154,33 @@ Dalam contoh di atas, **ekspresi** yang digunakan adalah **plat_nomor**, di mana
 - **case _:** bertindak sebagai penangkap, jika semua `case` tidak ada yang memenuhi.
 
 
-## Operator Kondisional (` ? : `)
+## Operator Kondisional 
 
 Operator kondisional mempunyai bentuk sintaks sebagai berikut:
 
 ```
-(ekspresi/kondisi) ? (ekspresi jika TRUE) : (ekspresi jika FALSE);
+true_value if <Ekspresi/Kondisi> else false_value
 ```
 
-Operator kondisional adalah satu-satunya operator ternary dalam bahasa C. Operator kondisional bertingkah seperti layaknya percabangan `if - else`. Ekspresi/kondisi yang akan dievaluasi diletakkan sebelum tanda tanya (`?`). Apabila menghasilkan **TRUE**, maka program akan mengeksekusi bagian di **kiri** tanda titik dua. Jika **FALSE**, akan mengeksekusi bagian di **kanan** tanda titik dua.
+Kondisi: Ekspresi yang akan dievaluasi sebagai True atau False.
+true_value: Nilai yang dikembalikan jika condition adalah True.
+false_value: Nilai yang dikembalikan jika condition adalah False.
 
 Contoh:
 
-```c
-#include <stdio.h>
-
-int main()
-{
-    int mark;
-    
-    scanf("%d", &mark);
-    printf(mark >= 75 ? "Lulus\n" : "Tidak Lulus\n");
-    return 0;
-}
+```python
+mark = int(input("Masukkan Nilai Ujian: "))
+print("Lulus\n" if mark >= 75 else "Tidak Lulus\n")
 ```
 
 Program di atas ekuivalen dengan:
 
-```c
-#include <stdio.h>
-
-int main()
-{
-    int mark;
-    
-    scanf("%d", &mark);
-    if (mark >= 75) {
-        printf("Lulus\n");
-    } else {
-        printf("Tidak Lulus\n");
-    }
-    return 0;
-}
+```python
+mark = int(input("Masukkan Nilai Ujian: "))
+if mark >= 75:
+    print("Lulus\n")
+else:
+    print("Tidak Lulus\n")
 ```
 
 # Soal Latihan
@@ -258,27 +243,27 @@ Sembilan ratus tujuh puluh sembilan
 
 ## Soal 3
 
-A, B, C, D, E, F, G merupakan input sinyal untuk sebuah digit dari 0 sampai 9 seperti berikut.
-
-![seven-segment](https://www.realdigital.org/img/83efb712b75cf12d4a31f4ed93b7b16c.svg)
-
-Buatlah program yang menerima input I1, I2, I3, I4 dan keluarkan output berupa nilai dari ketujuh input sinyal (1 menyala, 0 mati).
-(Input I1, I2, I3, I4 bertindak sebagai notasi biner. Contoh 1 0 0 0 bernilai 8)
+Buatlah program yang menerima inputan tahun berupa angka, kemudian keluarkan apakah tahun tersebut kabisat atau tidak.
+Syarat suatu tahun dikatakan kabisat:
+1. Jika angka tahun itu habis dibagi 400, maka tahun itu merupakan tahun kabisat.
+2. Jika angka tahun itu tidak habis dibagi 400 tetapi habis dibagi 100, maka tahun itu bukan merupakan tahun kabisat.
+3. Jika angka tahun itu tidak habis dibagi 400, tidak habis dibagi 100 akan tetapi habis dibagi 4, maka tahun itu merupakan tahun kabisat.
+4. Jika angka tahun tidak habis dibagi 400, tidak habis dibagi 100, dan tidak habis dibagi 4, maka tahun tersebut bukan merupakan tahun kabisat.
 
 **Sample Input 1**
 ```
-0 0 0 0
+1700
 ```
 **Sample Output 1**
 ```
-1 1 1 1 1 1 0
+bukan kabisat
 ```
 
 **Sample Input 2**
 ```
-1 0 1 1
+2024
 ```
 **Sample Output 2**
 ```
-0 0 0 0 0 0 0
+kabisat
 ```

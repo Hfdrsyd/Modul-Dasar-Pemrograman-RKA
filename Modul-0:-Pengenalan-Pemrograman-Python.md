@@ -563,7 +563,7 @@ Berdasarkan jumlah operannya, operator dibagi menjadi tiga jenis, yaitu:
 
 - **Unary** – yaitu operator yang bekerja pada satu operan, misalnya `-5`.
 - **Binary** – yaitu operator yang bekerja pada dua operan, misalnya `2 + 3`.
-- **Ternary** – yaitu operator yang bekerja pada tiga operan. (Akan dibahas pada bagian selanjutnya).
+- **Ternary** – yaitu operator yang bekerja pada tiga operan. (Operator kondisional pada modul selanjutnya).
 
 Berdasarkan kegunaannya, berikut adalah jenis-jenis operator dalam bahasa Python.
 
