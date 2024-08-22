@@ -1,4 +1,5 @@
 ## Daftar Isi
+- [Pengenalan Pemrograman](#apa-itu-pemrograman)
 
 - [IDE (Integrated Development Environment)](#ide-intregated-development-environment)
 
@@ -44,6 +45,9 @@
     + [Operator Bitwise](#operator-bitwise)
     + [Operator Gabungan](#operator-gabungan)
     + [Operator Lain](#operator-lain)
+
+# Apa itu Pemrograman?
+proses menulis dan merancang serangkaian instruksi untuk mengarahkan komputer agar dapat menjalankan tugas-tugas tertentu. Pemrograman melalui beberapa tahapan, seperti tulis-menulis, menguji, merevisi, mengevaluasi, serta pengujian kembali. Tahapan-tahapan tersebut dilakukan terus-menerus sampai program jadi sesuai yang diinginkan. Pada modul ini dan kedepan, kalian akan belajar mengenai dasar dari pemrograman menggunakan python.
 
 # IDE (Integrated Development Environment)
 
