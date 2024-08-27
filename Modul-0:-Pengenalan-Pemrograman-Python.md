@@ -47,7 +47,20 @@
     + [Operator Lain](#operator-lain)
 
 # Apa itu Pemrograman?
-Pemrograman adalah proses menulis dan merancang serangkaian instruksi untuk mengarahkan komputer agar dapat menjalankan tugas-tugas tertentu. Pemrograman melalui beberapa tahapan, seperti tulis-menulis, menguji, merevisi, mengevaluasi, serta pengujian kembali. Tahapan-tahapan tersebut dilakukan terus-menerus sampai program jadi sesuai yang diinginkan. Pada modul ini dan kedepan, kalian akan belajar mengenai dasar dari pemrograman menggunakan python.
+Bayangkan ada Seorang Ibu yang memberikan tugas tertulis di pintu kulkas kepada anaknya Bernama Ani seperti di bawah ini :
+```
+Buat Ani :
+
+Mamah liburan bentar ya ke Jogja kamu jaga Rumah. 
+Setiap 2 Minggu sekali Rumah disapu, Cuci Pakaian deterjennya 2 liter / 1kg baju ya
+```
+Dari Contoh di atas kita dapat menilai bahwa Ibunya Ani :
+- Memberikan perintah kepada Ani untuk melakukan suatu pekerjaan
+- Pekerjaan yang dilakukan dapat berulang kali
+
+Dari kasus di atas yang dilakukan Ibu kepada Ani disebut sebagai **pemrograman**. Hanya saja, dalam konteks Mata Kuliah ini Ibu adalah kita / programmer (orang yang menulis program) lalu Ani adalah Komputer.
+
+Secara teknis, **pemrograman** adalah proses menulis dan merancang serangkaian instruksi untuk mengarahkan komputer dalam menjalankan tugas-tugas tertentu. Di sisi lain, komputer tidak mengerti bahasa manusia, sehingga untuk memberikan perintah kepada komputer, kita harus menuliskannya dalam bahasa pemrograman. Proses penulisan perintah tersebut disebut **coding/pengkodean**. Pada modul ini dan kedepan, kalian akan belajar mengenai dasar pemrograman menggunakan Bahasa Pemrograman Python.
 
 # IDE (Integrated Development Environment)
 
