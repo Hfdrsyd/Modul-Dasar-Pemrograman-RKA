@@ -60,9 +60,19 @@ Python menggunakan interpreter untuk menjalankan kode, interpreter adalah progra
 
 - [Python](https://www.python.org/)
 
-Setelah melakukan install interpreter dapat dicoba seperti gambar dibawah. (Screenshoot dibawah menggunakan windows, pada iOS atau linux mungkin ada perbedaan):
+Setelah melakukan install interpreter, untuk mengecek versi dari python dan mengecek apakah python sudah aktif, dapat dicoba menggunakan command seperti dibawah, menggunakan **command prompt**.
 
-![img](img/after_install.png)
+```
+C:\Users>python --version
+Python 3.11.3
+
+C:\Users>python
+Python 3.11.3 (tags/v3.11.3:f3909b8, Apr  4 2023, 23:49:59) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello World")
+Hello World
+>>>
+```
 
 Atau dengan mudah, kalian dapat mencoba - coba run kode python menggunakan **Google Colaboratory** (untuk sekarang, hanya disarankan sebagai platform mencoba coba). Berikut cara menggunakan Google Colaboratory, jika kalian Pertama kali menggunakan:
 - Buka Google Drive kalian pada [https://drive.google.com/drive/home](https://drive.google.com/drive/home)
