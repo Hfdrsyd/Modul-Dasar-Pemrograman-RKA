@@ -4,9 +4,9 @@
 - [Percabangan](#percabangan)
     + [If](#percabangan-if)
     + [If-Else](#percabangan-if-else)
-    + [If-Else if](#percabangan-if-elseif)
-    + [Switch-Case](#percabangan-switch-case)
-    + [Operator Kondisional ( ? : )](#operator-kondisional--)
+    + [If-Elif](#percabangan-if-elif)
+    + [Match-Case](#percabangan-match-case)
+    + [Operator Kondisional](#operator-kondisional)
 - [Soal Latihan](#soal-latihan)
 
 # Control Flow
@@ -154,7 +154,7 @@ Dalam contoh di atas, **ekspresi** yang digunakan adalah **plat_nomor**, di mana
 - **case _:** bertindak sebagai penangkap, jika semua `case` tidak ada yang memenuhi.
 
 
-## Operator Kondisional 
+## Operator Kondisional
 
 Operator kondisional mempunyai bentuk sintaks sebagai berikut:
 
@@ -162,9 +162,9 @@ Operator kondisional mempunyai bentuk sintaks sebagai berikut:
 true_value if <Ekspresi/Kondisi> else false_value
 ```
 
-Kondisi: Ekspresi yang akan dievaluasi sebagai True atau False.
-true_value: Nilai yang dikembalikan jika condition adalah True.
-false_value: Nilai yang dikembalikan jika condition adalah False.
+- **Kondisi**: Ekspresi yang akan dievaluasi sebagai True atau False.
+- **true_value**: Nilai yang dikembalikan jika condition adalah True.
+- **false_value**: Nilai yang dikembalikan jika condition adalah False.
 
 Contoh:
 
